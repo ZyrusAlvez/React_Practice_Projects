@@ -27,18 +27,18 @@ html{
   background-color: gold;
 }
 
-.menu, .last{
+.menu{
   font-size: 2rem;
   padding: 5px 20px;
   border-top: 2px solid hsla(0, 0%, 0%, 0.507);
 }
 
-.menu:hover, .last:hover{
+.menu:hover{
   background-color: papayawhip;
   cursor: pointer;
 }
 
-.last:hover{
+.menu:nth-last-child(1){
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
 }

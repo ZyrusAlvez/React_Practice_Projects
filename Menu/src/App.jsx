@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className='main-div'>
       <div className='title'>CSS MENU</div>
-      {menu.map((e, i) => <div className={i === menu.length - 1 ? "last" : "menu"} onClick={() =>alert("clicked")}>{e}</div>)}
+      {menu.map((e, i) => <div className="menu" onClick={() =>alert("clicked")}>{e}</div>)}
     </div>
   )
 }
